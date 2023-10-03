@@ -15,6 +15,7 @@ s
 - Created Api
 - Created middleware
 - Create i18n
+- Initiated multiples language support
 
 ### Fixed
 

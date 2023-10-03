@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { i18n } from "../i18n";
-import { getLocale } from "./utils/getLocale";
+import { getLocale } from './utils/getLocales';
 import pageError from "./utils/pageError";
 
 export async function middleware(request: NextRequest) {

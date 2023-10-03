@@ -1,6 +1,4 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import '../../styles/global.scss';
 
 export default function RootLayout({
   children,

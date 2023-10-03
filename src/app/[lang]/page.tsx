@@ -1,8 +1,7 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Home from './home/index';
 
-export default function Home() {
+export default function Page() {
   return (
-    <h1>Hello word?</h1>
-  )
+    <Home />
+    )
 }
