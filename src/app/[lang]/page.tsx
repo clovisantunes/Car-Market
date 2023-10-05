@@ -1,7 +1,7 @@
-import Home from './home/index';
 
-export default function Page() {
+
+export default function Page(params: any) {
   return (
-    <Home />
+    <h1>Error 404</h1>
     )
 }

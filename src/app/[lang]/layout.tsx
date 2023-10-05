@@ -1,12 +1,15 @@
 import '../../styles/global.scss';
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+interface RootLayoutProps{
+  children: React.ReactNode;
+  params: {
+    lang: string;
+  }
+}
+
+export default function RootLayout({children, params}: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang={params.lang}>
       <body>{children}</body>
     </html>
   )
