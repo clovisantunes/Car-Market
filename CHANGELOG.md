@@ -16,6 +16,8 @@ s
 - Created middleware
 - Create i18n
 - Initiated multiples language support
+- Initiated navbar
+
 
 ### Fixed
 

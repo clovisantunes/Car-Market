@@ -1,4 +1,4 @@
-
+import '../../styles/global.scss';
 
 export default function Page(params: any) {
   return (
