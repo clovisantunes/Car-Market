@@ -23,8 +23,9 @@ $font-size-lg: 18px;
 $font-size-xl: 20px;
 
 /* ---- Colors ---- */
-$colors-primary-50: #fa7373;
-$colors-primary-100: #fdd7c1;
+:root{
+--colors-primary-50: #fa7373;
+--colors-primary-100: #fdd7c1;
 $colors-primary-200: #fdc4a3;
 $colors-primary-300: #fca97a;
 $colors-primary-400: #fb9860;
@@ -75,8 +76,7 @@ $colors-font-secondary: $colors-neutral-800;
 
 $colors-placeholder: $colors-neutral-800;
 $colors-border: $colors-neutral-500;
-
-*,
+}
 *::before,
 *::after {
   box-sizing: border-box;
@@ -99,7 +99,6 @@ body,
 input,
 button,
 textarea {
-  color: $colors-primary; /* default color example */
 
   font-family: "Roboto", sans-serif; /* default font example */
   -webkit-font-smoothing: antialiased;

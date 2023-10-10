@@ -7,10 +7,15 @@
     justify-content: space-around;
 }
 .logoCard{
-    width: 30%;
-
-
     h1{
-        color: $colors-secondary-100;
+        color: var(--colors-secondary-100);
+    }
+}
+.navItems{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    li{
+        margin: 0 1em 0  0;
     }
 }

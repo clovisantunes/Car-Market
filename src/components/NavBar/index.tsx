@@ -5,7 +5,7 @@ export default function NavBar() {
         <div className={styles.navContainer}>
             <div className={styles.logoCard}>logo</div>
             <div>
-                <ul>
+                <ul className={styles.navItems}>
                     <li>Inicio</li>
                     <li>Comprar</li>
                     <li>Vender</li>
