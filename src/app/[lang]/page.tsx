@@ -1,7 +1,14 @@
+import { getTranslation } from '../../../locales/utils/getTranslation';
 import '../../styles/global.scss';
+import Home from './home/page';
 
-export default function Page(params: any) {
-  return (
-    <h1>Error 404</h1>
-    )
+interface pageProps {
+  params: {
+    lang: string;
+  }
 }
+async function Page({params}: pageProps) {
+  return  <Home params={params}/>
+}
+
+export default Page;

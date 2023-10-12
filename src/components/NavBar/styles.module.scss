@@ -19,3 +19,11 @@
         margin: 0 1em 0  0;
     }
 }
+.userContainer{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    li{
+        margin: 0 1em 0 0;
+    }
+}

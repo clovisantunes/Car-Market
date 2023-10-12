@@ -1,3 +1,9 @@
 {
-    "hello": "Hello word!"
+    "hello": "Hello word!",
+    "initial": "Initial",
+    "buy": "Buy",
+    "sell": "Sell",
+    "help": "Help",
+    "login": "SigIn",
+    "cart": "Cart"
  }

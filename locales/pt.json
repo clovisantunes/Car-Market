@@ -1,3 +1,9 @@
  {
-    "hello": "Ola mundo!"
+    "hello": "Ola mundo!",
+    "initial": "Inicio",
+    "buy": "Comprar",
+    "sell": "Vender",
+    "help": "Ajuda",
+    "login": "Login",
+    "cart": "Carrinho"
  }
