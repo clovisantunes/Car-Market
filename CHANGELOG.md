@@ -17,6 +17,7 @@ s
 - Create i18n
 - Initiated multiples language support
 - Initiated navbar
+- Adjusted multiples languages support"
 
 
 ### Fixed
