@@ -17,7 +17,8 @@ s
 - Create i18n
 - Initiated multiples language support
 - Initiated navbar
-- Adjusted multiples languages support"
+- Adjusted multiples languages support
+- Added React icons
 
 
 ### Fixed

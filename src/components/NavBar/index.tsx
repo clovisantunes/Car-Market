@@ -1,6 +1,7 @@
 import styles from './styles.module.scss';
 import '../../styles/global.scss';
 import { getTranslation } from '../../../locales/utils/getTranslation';
+import { FaUserLarge } from "react-icons/fa6";
 
 interface NavBarProps {
     params: {
@@ -22,7 +23,7 @@ export default async function NavBar({params}: NavBarProps) {
             </div>
             <div>
                 <ul className={styles.userContainer}>
-                    <li>{lang.login}</li>
+                    <li><FaUserLarge width={24} height={18}/></li>
                     <li>{lang.cart}</li>
                 </ul>
             </div>

@@ -1,4 +1,5 @@
 import '../../styles/global.scss';
+import '../../styles/Home.modules.scss';
 
 interface RootLayoutProps{
   children: React.ReactNode;

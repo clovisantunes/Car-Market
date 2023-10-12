@@ -1,3 +1,4 @@
+
 $max-width: 1280px;
 $max-width-onboarding: 1028px;
 
@@ -23,9 +24,9 @@ $font-size-lg: 18px;
 $font-size-xl: 20px;
 
 /* ---- Colors ---- */
-:root{
---colors-primary-50: #fa7373;
---colors-primary-100: #fdd7c1;
+
+$colors-primary-50: #fa7373;
+$colors-primary-100: #fdd7c1;
 $colors-primary-200: #fdc4a3;
 $colors-primary-300: #fca97a;
 $colors-primary-400: #fb9860;
@@ -35,6 +36,7 @@ $colors-primary-700: #ee0000;
 $colors-primary-800: #a00101;
 $colors-primary-900: #830000;
 
+$colors-secondary-0: #fff;
 $colors-secondary-50: #e6e7e7;
 $colors-secondary-100: #b3b4b6;
 $colors-secondary-200: #8e8f92;
@@ -76,35 +78,3 @@ $colors-font-secondary: $colors-neutral-800;
 
 $colors-placeholder: $colors-neutral-800;
 $colors-border: $colors-neutral-500;
-}
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-img,
-picture,
-svg,
-video {
-  display: block;
-  max-width: 100%;
-}
-
-body,
-input,
-button,
-textarea {
-
-  font-family: "Roboto", sans-serif; /* default font example */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  min-height: 100vh;
-}
