@@ -14,7 +14,7 @@ export default async function NavBar({params}: NavBarProps) {
         <div className={styles.navContainer}>
             <div className={styles.logoCard}>logo</div>
             <div>
-                <ul className={styles.navItems}>
+                <ul className={`${styles.navItems} ${styles.navResponsive} `}>
                     <li>{lang.initial}</li>
                     <li>{lang.buy}</li>
                     <li>{lang.sell}</li>
