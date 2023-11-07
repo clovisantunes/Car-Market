@@ -2,6 +2,8 @@ import styles from './styles.module.scss';
 import '../../styles/global.scss';
 import { getTranslation } from '../../../locales/utils/getTranslation';
 import { FaUserLarge, FaCartShopping } from "react-icons/fa6";
+import { useState } from 'react';
+import NavButton from '../UI/NavButton';
 
 interface NavBarProps {
     params: {
@@ -10,16 +12,21 @@ interface NavBarProps {
 }
 export default async function NavBar({params}: NavBarProps) {
     const lang = await getTranslation(params.lang);
+    const ShowMenu = useState(false);
+    
     return (
         <div className={styles.navContainer}>
             <div className={styles.logoCard}>logo</div>
             <div>
-                <ul className={`${styles.navItems} ${styles.navResponsive} `}>
+                <ul className={styles.navItems}>
                     <li>{lang.initial}</li>
                     <li>{lang.buy}</li>
                     <li>{lang.sell}</li>
                     <li>{lang.help}</li>
                 </ul>
+            </div>
+            <div className={styles.NavButtonContainer}>
+                <NavButton />
             </div>
             <div>
                 <ul className={styles.userContainer}>
