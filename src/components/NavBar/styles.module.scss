@@ -26,6 +26,9 @@
         font-weight: 600;
     }
 }
+.NavButtonContainer{
+    display: none;
+}
 .userContainer{
     display: flex;
     flex-direction: row;
@@ -35,11 +38,17 @@
     }
 }
 @media(max-width: 420px){
-    .logoCard{
-        position: absolute;
-    }
     .navItems{
         display: none
+    }
+    .userContainer{
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    .NavButtonContainer{
+        display: block;
+        right: 10%;
     }
     
 }
