@@ -19,6 +19,7 @@ s
 - Initiated navbar
 - Adjusted multiples languages support
 - Added React icons
+- Added button functions
 
 
 ### Fixed
