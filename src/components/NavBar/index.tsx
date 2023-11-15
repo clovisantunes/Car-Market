@@ -26,8 +26,8 @@ export default async function NavBar({params}: NavBarProps) {
             <div className={styles.NavButtonContainer}>
                 <NavButton />
             </div>
-            <div>
-                <ul className={styles.userContainer}>
+            <div className={styles.userContainer}>
+                <ul>
                     <li><FaUserLarge width={24} height={18}/></li>
                     <li><FaCartShopping width={24} height={18} /></li>
                 </ul>
